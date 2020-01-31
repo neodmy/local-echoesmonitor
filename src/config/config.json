@@ -1,0 +1,17 @@
+{
+    "senderInfo": {
+        "service": "",
+        "auth": {
+            "user": "",
+            "pass": ""
+        }
+    },
+    "reportEmails": [
+        ""
+    ],
+    "checkPeriod": {
+        "unit": "minute",
+        "value": 1
+    },
+    "directoryPath": ""
+}

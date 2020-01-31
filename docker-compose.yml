@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  echoesmonitor:
+    image: 'neodmy/echoesmonitor'
+    container_name: 'neodmy-echoesmonitor'
+    volumes:
+        - /home/david/Escritorio/pruebas:/home/david/Escritorio/pruebas
