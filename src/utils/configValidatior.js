@@ -30,7 +30,7 @@ module.exports = ({ checkPeriod: { unit, value }, directoryPath }) => {
     if (!parsedValue) throw Error(`checkPeriod with unit: ${unit} not valid. Valid units: minute, hour. Please, check config file`);
 
     const cronExpression = parsedValue();
-    if (validate(cronExpression)) throw Error(`cron expression ${cronExpression} not valid. Please check checkperiod config`);
+    if (!validate(cronExpression)) throw Error(`cron expression ${cronExpression} not valid. Please check checkperiod config`);
     return cronExpression;
   };
 

@@ -4,14 +4,14 @@
         "auth": {
             "user": "",
             "pass": ""
-        }
+        },
     },
     "reportEmails": [
         ""
     ],
     "checkPeriod": {
-        "unit": "minute",
-        "value": 1
+        "unit": "",
+        "value": 0
     },
     "directoryPath": ""
 }
