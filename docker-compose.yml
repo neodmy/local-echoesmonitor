@@ -1,7 +1,9 @@
 version: '3.5'
 services:
-  echoesmonitor:
-    image: 'neodmy/echoesmonitor'
-    container_name: 'neodmy-echoesmonitor'
+  echoes-local-monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name:  echoes-local-monitor
     volumes:
         - /home/david/Escritorio/pruebas:/home/david/Escritorio/pruebas
